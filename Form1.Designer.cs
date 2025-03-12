@@ -35,8 +35,9 @@
             this.button1 = new System.Windows.Forms.Button();
             this.PanelLogo = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -133,6 +134,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.panel5);
             this.panel2.Controls.Add(this.panel4);
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -140,6 +142,14 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(714, 511);
             this.panel2.TabIndex = 1;
+            // 
+            // panel4
+            // 
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(0, 50);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(714, 50);
+            this.panel4.TabIndex = 1;
             // 
             // panel3
             // 
@@ -149,13 +159,13 @@
             this.panel3.Size = new System.Drawing.Size(714, 50);
             this.panel3.TabIndex = 0;
             // 
-            // panel4
+            // panel5
             // 
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 50);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(714, 50);
-            this.panel4.TabIndex = 1;
+            this.panel5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel5.Location = new System.Drawing.Point(233, 200);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(220, 146);
+            this.panel5.TabIndex = 2;
             // 
             // MainForm
             // 
@@ -187,6 +197,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel5;
     }
 }
 
